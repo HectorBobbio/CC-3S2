@@ -1,0 +1,18 @@
+-# add to end of index.html.haml
+ 
+= link_to 'Add new movie', new_movie_path
+
+%h1 All Movies
+
+%table#movies
+  %thead
+    %tr
+      %th Movie Title
+      %th Rating
+      %th Release Date
+      %th More Info
+  %tbody
+    - @movies.each do |movie|
+      .content
+        = render partial: 'layouts/movies_form', locals: {movie: movie}
+        
