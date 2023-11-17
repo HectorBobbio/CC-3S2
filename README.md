@@ -76,3 +76,9 @@ finally{
 Ruby nos permite definir el tipo de excepcion que vamos a atrapar, mientras que Javascript atrapa cualquier tipo de excepcion que encuentre.
 
 # Arquitectura orientada a Microservicios
+
+Al momento de seguir el tutorial indicado, encontre errores al instalas las dependecias requeridas.
+
+![](/imgs/Error-Nodejs.png)
+
+Respecto a las diferencias entre una arquitectura orientada a Microservicios y la arquitectura usual cliente-servidor, podemos ver que con los microservicios encapsulamos cada funcionalidad de la aplicacion en unidades pequeñas e independientes de las demás, que se comunican entre sí mediante un broker. Esto significaría una mejoría en escabilidad y mantenimiento pues no será necesario una revisión exhaustiva de toda la aplicación cuando se quiera agregar una función nueva o modificar una existente gracias a la autonomía entre microservicios.
