@@ -58,17 +58,17 @@ mientras que Javascript:
 
 ```javascript
 try{
-    # Codigo que pueda tener excepciones
+    // Codigo que pueda tener excepciones
     tarea1
     tarea2
 }
 catch (e){
-    # En caso de encontrar excepciones
+    // En caso de encontrar excepciones
     tarea_por_exc1
     tarea_por_exc2
 }
 finally{
-    # Se ejecuta siempre
+    // Se ejecuta siempre
     tarea3
 }
 
